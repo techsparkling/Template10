@@ -1,0 +1,178 @@
+body{
+    overflow: hidden;
+}
+.overlay
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: ;
+  mix-blend-mode: overlay;
+  background-color:;
+}
+.showcase .bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: -webkit-fill-available;
+    
+    
+  
+
+}
+li.list-item {
+    float: left;
+    margin-left: 55px;
+    margin-top: 20px;
+}
+li.list-item::marker{
+    content: " ";
+}
+.container {
+    position: absolute;
+    font-family: sans-serif;
+    padding-left: 50px;
+    width: 93%;
+    height: -webkit-fill-available;
+}
+h1.logo {
+    color: white;
+    font-size: 29px;
+    position: relative;
+}
+body > section > div.container > section > nav > div:nth-child(1) {
+    float: left;
+}
+.grow-list {
+    color: white;
+    float: right;
+    width: 635px;
+    height: 100px;
+    
+}
+ul.list {
+    position: relative;
+    left: -180px;
+}
+body > section > div.container > section > nav > div.grow-list > svg {
+    position: relative;
+    top: -59px;
+    height: 100px;
+    left: 225px;
+}
+p.phoneno {
+    position: relative;
+    top: -150px;
+    left: 502px;
+}
+.line {
+    border-bottom: 2px solid white;
+    position: absolute;
+    top: 90px;
+    width: 718px;
+    /* float: left; */
+    right: 0px;
+}
+h1.main {
+    position: absolute;
+    top: 200px;
+    color: white;
+    font-size: 70px;
+    width: 778px;
+}
+.details {
+   
+    position: absolute;
+    
+    right: 200px;
+    top: 215px;
+    
+}
+.context{
+    
+    width: 250px;
+    height: 135px;
+    background-color: rgba(255, 255, 255, 0.176)
+
+}
+.small-line {
+    border-left: 1px white solid;
+    width: -1px;
+    height: 55px;
+    position: relative;
+    left: 80%;
+}
+.pointer {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: white;
+    position: relative;
+    left: 194px;
+}
+.text {
+    color: white;
+    position: relative;
+    top: -42px;
+    left: 25px;
+}
+body > section > div.container > div > div.context > svg {
+    position: relative;
+    left: 3px;
+}
+.details-second {
+    position: absolute;
+    right: 410px;
+    top: 475px;
+}
+.context-second{
+    
+    width: 250px;
+    height: 135px;
+    background-color: rgba(255, 255, 255, 0.176)
+
+}
+.small-line-second {
+    border-bottom: 1px white solid;
+    width: 55px;
+    height: 55px;
+    position: relative;
+    left: 100%;
+    top: -123px;
+}
+.pointer-second {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: white;
+    position: relative;
+    left: 305px;
+    top: -130px;
+}
+.text-second {
+    color: white;
+    position: relative;
+    top: -57px;
+    left: 32px;
+}
+body > section > div.container > div.details-second > div.context-second > svg {
+    position: relative;
+    left: -107px;
+    top: -20px;
+}
+button.learn-more {
+    position: absolute;
+    top: 454px;
+    left: 60px;
+    padding: 10px;
+    padding-left: 30px;
+    font-size: larger;
+    padding-right: 30px;
+    color: white;
+    background: none;
+    border: 1px white solid;
+    border-radius: 65px;
+}
