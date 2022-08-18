@@ -91,6 +91,9 @@ h1.main {
     top: 215px;
     
 }
+i.fas.fa-bars {
+    display: none;
+}
 .context{
     
     width: 250px;
@@ -175,4 +178,54 @@ button.learn-more {
     background: none;
     border: 1px white solid;
     border-radius: 65px;
+}
+
+@media only screen and (max-width: 600px) {
+    h1.main {
+        position: absolute;
+        top: 89px;
+        color: white;
+        font-size: 30px;
+        width: 300px;
+    }
+    .details {
+        position: absolute;
+        right: 105px;
+        top: 253px;
+    }
+    .details-second {
+        position: absolute;
+        right: 110px;
+        top: 475px;
+    }
+    button.learn-more {
+        position: absolute;
+        top: 195px;
+        left: 47px;
+        padding: 10px;
+        padding-left: 30px;
+        font-size: larger;
+        padding-right: 30px;
+        color: white;
+        background: none;
+        border: 1px white solid;
+        border-radius: 65px;
+    }
+    .line{
+        display: none;
+    }
+    .grow-list{
+        display: none;
+    }
+    i.fas.fa-bars {
+        display: block;
+        position: relative;
+        left: 150px;
+        color: white;
+        top: 50px;
+        font-size: 25px;
+    }
+    body > section > div.container > section > nav > div:nth-child(1) {
+       display: flex;
+    }
 }
